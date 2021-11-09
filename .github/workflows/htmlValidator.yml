@@ -3,7 +3,7 @@ on:
   push:
   
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2 # Requried will all actions
@@ -12,3 +12,4 @@ jobs:
       with:
         root: html/
         css: true
+  
