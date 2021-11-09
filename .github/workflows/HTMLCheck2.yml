@@ -2,7 +2,7 @@ name: HTML Check 2
 on: 
   pull_request:
     branches:
-      master
+      main
   
 jobs:
   test:
