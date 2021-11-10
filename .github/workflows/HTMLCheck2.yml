@@ -5,7 +5,7 @@ on:
       main
   
 jobs:
-  test:
+  testHTML:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2 # Requried will all actions
